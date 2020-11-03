@@ -1,0 +1,29 @@
+{
+    "name": "node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --inspect index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Tran-Dai/node.git"
+    },
+    "keywords": [
+        "test"
+    ],
+    "author": "daiTQ",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Tran-Dai/node/issues"
+    },
+    "homepage": "https://github.com/Tran-Dai/node#readme",
+    "devDependencies": {
+        "express": "^4.17.1"
+    },
+    "dependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
